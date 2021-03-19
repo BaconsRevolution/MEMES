@@ -1,0 +1,58 @@
+body {
+    background-image: url("Background.jpg");
+    background-color: #cccccc;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+   }
+.header-wrapper {
+    margin: 0 auto; /* to make the div center align to the browser */
+    text-align: center;
+}
+#buttons{
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#buttons:hover {
+    background-color: #ce0606;
+  }
+  
+#buttons:active {
+    box-shadow: none;
+    top: 5px;
+  }
+
+h1 { 
+    color: #ffffff; 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 62px; 
+    font-weight: 800; 
+    line-height: 72px; 
+    margin: 0 0 24px; 
+    text-align: center; 
+    text-transform: uppercase; 
+ }
+
+h2 { 
+    color: #ffffff; 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 30px; 
+    font-weight: 800; 
+    line-height: 36px; 
+    margin: 0 0 24px; 
+    text-align: center;
+}
+  p { 
+    color: #f8f8f8; 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 32px; 
+    margin: 0 0 24px;
+}
